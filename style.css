@@ -1,0 +1,86 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.pri{
+    border: solid 1px;
+    display: grid;
+    height: 100%;
+    width: 70%;
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas: 
+    'foto1 foto3 foto5 foto5'
+    'foto1 foto4 foto6 foto7'
+    'foto2 foto4 foto8 foto8';
+}
+.foto{
+    border: solid 1px rgb(245, 243, 243);
+    border-radius: 6px;
+ 
+}
+.foto1{
+    grid-area: foto1;
+    background-image: url(https://images.pexels.com/photos/1921336/pexels-photo-1921336.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto2{
+    grid-area: foto2;
+    background-image: url(https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto3{
+    grid-area: foto3;
+    background-image: url(https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto4{
+    grid-area: foto4;
+    background-image: url(https://images.pexels.com/photos/861443/pexels-photo-861443.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto5{
+    grid-area: foto5;
+    background-image: url(https://images.pexels.com/photos/163891/italy-sicily-sea-ocean-163891.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto6{
+    grid-area: foto6;
+    background-image: url(https://images.pexels.com/photos/3685271/pexels-photo-3685271.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto7{
+    grid-area: foto7;
+    background-image: url(https://images.pexels.com/photos/4254555/pexels-photo-4254555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foto8{
+    grid-area: foto8;
+    background-image: url(https://images.pexels.com/photos/35857/amazing-beautiful-breathtaking-clouds.jpg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
